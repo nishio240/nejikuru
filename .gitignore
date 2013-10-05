@@ -4,3 +4,4 @@
 /.settings
 /data/logs/*
 /data/cache/*
+/data/Smarty/templates_c/admin/*
