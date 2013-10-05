@@ -2885,3 +2885,38 @@ login_id = admin(0)[ft6nc0b1ga082rh3toh6a2qig3]
 /Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/require_base.php(51): SC_Helper_Session->adminAuthorization
 /Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/class/helper/SC_Helper_Session.php(236): SC_Session->__construct
 /Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/class/SC_Session.php(60): GC_Utils->gfPrintLog
+2013/10/05 17:24:21 [/nejikuru/admin/customer/index.php] access : user=admin auth=0 sid=ft6nc0b1ga082rh3toh6a2qig3 from ::1
+login_id = admin(0)[ft6nc0b1ga082rh3toh6a2qig3]
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/admin/customer/index.php(25): require_once
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/admin/require.php(32): require_once
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/require_base.php(51): SC_Helper_Session->adminAuthorization
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/class/helper/SC_Helper_Session.php(236): SC_Session->__construct
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/class/SC_Session.php(60): GC_Utils->gfPrintLog
+2013/10/05 17:24:49 [/nejikuru/admin/basis/index.php] access : user=admin auth=0 sid=ft6nc0b1ga082rh3toh6a2qig3 from ::1
+login_id = admin(0)[ft6nc0b1ga082rh3toh6a2qig3]
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/admin/basis/index.php(24): require_once
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/admin/require.php(32): require_once
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/require_base.php(51): SC_Helper_Session->adminAuthorization
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/class/helper/SC_Helper_Session.php(236): SC_Session->__construct
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/class/SC_Session.php(60): GC_Utils->gfPrintLog
+2013/10/05 17:24:51 [/nejikuru/admin/products/product.php] access : user=admin auth=0 sid=ft6nc0b1ga082rh3toh6a2qig3 from ::1
+login_id = admin(0)[ft6nc0b1ga082rh3toh6a2qig3]
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/admin/products/product.php(25): require_once
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/admin/require.php(32): require_once
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/require_base.php(51): SC_Helper_Session->adminAuthorization
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/class/helper/SC_Helper_Session.php(236): SC_Session->__construct
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/class/SC_Session.php(60): GC_Utils->gfPrintLog
+2013/10/05 17:24:56 [/nejikuru/admin/products/class.php] access : user=admin auth=0 sid=ft6nc0b1ga082rh3toh6a2qig3 from ::1
+login_id = admin(0)[ft6nc0b1ga082rh3toh6a2qig3]
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/admin/products/class.php(25): require_once
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/admin/require.php(32): require_once
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/require_base.php(51): SC_Helper_Session->adminAuthorization
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/class/helper/SC_Helper_Session.php(236): SC_Session->__construct
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/class/SC_Session.php(60): GC_Utils->gfPrintLog
+2013/10/05 17:24:58 [/nejikuru/admin/products/classcategory.php] access : user=admin auth=0 sid=ft6nc0b1ga082rh3toh6a2qig3 from ::1
+login_id = admin(0)[ft6nc0b1ga082rh3toh6a2qig3]
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/admin/products/classcategory.php(25): require_once
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/admin/require.php(32): require_once
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/require_base.php(51): SC_Helper_Session->adminAuthorization
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/class/helper/SC_Helper_Session.php(236): SC_Session->__construct
+/Applications/XAMPP/xamppfiles/htdocs/nejikuru/data/class/SC_Session.php(60): GC_Utils->gfPrintLog
