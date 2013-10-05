@@ -3,3 +3,4 @@
 .buildpath
 /.settings
 /data/logs/*
+/data/cache/*
