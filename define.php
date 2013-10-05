@@ -2,7 +2,7 @@
 /** HTML繝�ぅ繝ｬ繧ｯ繝医Μ縺九ｉ縺ｮDATA繝�ぅ繝ｬ繧ｯ繝医Μ縺ｮ逶ｸ蟇ｾ繝代せ */
 define('HTML2DATA_DIR', '/data/');
 
-/** 9data/module 莉･荳九� PEAR 繝ｩ繧､繝悶Λ繝ｪ繧貞━蜈育噪縺ｫ菴ｿ逕ｨ縺吶ｋ */
+/** 11data/module 莉･荳九� PEAR 繝ｩ繧､繝悶Λ繝ｪ繧貞━蜈育噪縺ｫ菴ｿ逕ｨ縺吶ｋ */
 set_include_path(realpath(dirname(__FILE__) . '/' . HTML2DATA_DIR . 'module') . PATH_SEPARATOR . get_include_path());
 
 /**
