@@ -1,0 +1,656 @@
+2013/10/01 13:28:01 [/admin/design/index.php] [execute end 524a4f4f65ede#5]
+SQL: PREPARE mdb2_statement_mysql_5b1d95f37d2a1df200d8a4646437000320abb94d8 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:15:"/admin/design/?";transactionid|s:40:"ac53ac0bd2c6c61a22578073b4684e8ce2584ef4";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"524a194928e15VaXPuDxe";last_login|s:19:"2013-09-30 15:40:07";preview|s:2:"ON";',
+  1 => 'av5i8mnjai3mftckiuuarbdef7',
+)
+execution time: 2.15 sec
+ from 121.94.157.46
+login_id = admin(0)[av5i8mnjai3mftckiuuarbdef7]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/01 14:26:41 [/admin/design/main_edit.php] [execute end 524a5d0c6cd2b#7]
+SQL: PREPARE mdb2_statement_mysql_7c1662e539265ca624ba2422c02c814f6341bcdc9 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:55:"/admin/design/main_edit.php?page_id=4&device_type_id=10";transactionid|s:40:"ac53ac0bd2c6c61a22578073b4684e8ce2584ef4";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"524a194928e15VaXPuDxe";last_login|s:19:"2013-09-30 15:40:07";preview|s:2:"ON";',
+  1 => 'av5i8mnjai3mftckiuuarbdef7',
+)
+execution time: 4.71 sec
+ from 121.94.157.46
+login_id = admin(0)[av5i8mnjai3mftckiuuarbdef7]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/01 14:32:32 [/admin/design/index.php] [execute end 524a5e6dca376#9]
+SQL: PREPARE mdb2_statement_mysql_99aee769889bf6db1f792b394baac1967673d64dc FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:42:"/admin/design/?page_id=1&device_type_id=10";transactionid|s:40:"28a960aacb377017e559f7acffe78dbdaf9c4cc5";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"524a5d41b2b97f2perHWY";last_login|s:19:"2013-10-01 12:00:50";',
+  1 => 'qqk8ac6dfk8vloeor9pvi6red7',
+)
+execution time: 2.54 sec
+ from 121.94.157.46
+login_id = admin(0)[qqk8ac6dfk8vloeor9pvi6red7]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/02 14:12:16 [/admin/design/css.php] [execute end 524bab2dd319b#5]
+SQL: PREPARE mdb2_statement_mysql_50c0c5f30ce122b5a45b45243d45a57234217525b FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:60:"/admin/design/css.php?css_name=style02.css&device_type_id=10";transactionid|s:40:"b03f63fd4da593d45e3860b0f508824bcbb1008c";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"524b9b035a7caAR92Y3sH";last_login|s:19:"2013-10-02 08:50:14";preview|s:2:"ON";',
+  1 => 'v04h30bt52uoqlar0dlo798nj4',
+)
+execution time: 2.49 sec
+ from 121.94.157.46
+login_id = admin(0)[v04h30bt52uoqlar0dlo798nj4]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/02 14:53:37 [/admin/design/bloc.php] [execute end 524bb4dab3dbe#7]
+SQL: PREPARE mdb2_statement_mysql_76cad317c45c47a7cf7f6e84a2167c1735395705d FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:51:"/admin/design/bloc.php?bloc_id=21&device_type_id=10";transactionid|s:40:"b03f63fd4da593d45e3860b0f508824bcbb1008c";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"524b9b035a7caAR92Y3sH";last_login|s:19:"2013-10-02 08:50:14";preview|s:2:"ON";',
+  1 => 'v04h30bt52uoqlar0dlo798nj4',
+)
+execution time: 7.18 sec
+ from 121.94.157.46
+login_id = admin(0)[v04h30bt52uoqlar0dlo798nj4]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/02 15:45:31 [/admin/design/css.php] [execute end 524bc10936d9d#5]
+SQL: PREPARE mdb2_statement_mysql_5d0cd949fdd5e5ea61cd20f6c0903fcb7d9a3d744 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:54:"/admin/design/css.php?css_name=style&device_type_id=10";transactionid|s:40:"3d700392701cc4fb06e2223c12afed2042201bc7";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"524af0f7b47eaZf2ArVUV";last_login|s:19:"2013-10-02 00:57:43";preview|s:2:"ON";',
+  1 => 'mv94csg1s1alpvnkoivlkh78j6',
+)
+execution time: 2.68 sec
+ from 121.94.157.46
+login_id = admin(0)[mv94csg1s1alpvnkoivlkh78j6]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/02 15:46:27 [/admin/design/css.php] [execute end 524bc14063fb4#5]
+SQL: PREPARE mdb2_statement_mysql_534c9e8da54041ee87055697ce1a3013fd80c49a7 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:56:"/admin/design/css.php?css_name=style02&device_type_id=10";transactionid|s:40:"3d700392701cc4fb06e2223c12afed2042201bc7";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"524af0f7b47eaZf2ArVUV";last_login|s:19:"2013-10-02 00:57:43";preview|s:2:"ON";',
+  1 => 'mv94csg1s1alpvnkoivlkh78j6',
+)
+execution time: 2.91 sec
+ from 121.94.157.46
+login_id = admin(0)[mv94csg1s1alpvnkoivlkh78j6]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/02 17:18:34 [/admin/design/bloc.php] [execute end 524bd6d7d3db2#6]
+SQL: PREPARE mdb2_statement_mysql_611c9c47ec37e3bf05d0ea7a39047eb8601ec6d8f FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:40:"/admin/design/bloc.php?device_type_id=10";transactionid|s:40:"b03f63fd4da593d45e3860b0f508824bcbb1008c";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"524b9b035a7caAR92Y3sH";last_login|s:19:"2013-10-02 08:50:14";preview|s:2:"ON";',
+  1 => 'v04h30bt52uoqlar0dlo798nj4',
+)
+execution time: 2.38 sec
+ from 121.94.157.46
+login_id = admin(0)[v04h30bt52uoqlar0dlo798nj4]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/02 17:18:41 [/admin/design/index.php] [execute end 524bd6dd4c175#5]
+SQL: PREPARE mdb2_statement_mysql_5e8c41289a09eee11d8c070b3a4fac3826874217b FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:15:"/admin/design/?";transactionid|s:40:"b03f63fd4da593d45e3860b0f508824bcbb1008c";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"524b9b035a7caAR92Y3sH";last_login|s:19:"2013-10-02 08:50:14";preview|s:2:"ON";',
+  1 => 'v04h30bt52uoqlar0dlo798nj4',
+)
+execution time: 3.96 sec
+ from 121.94.157.46
+login_id = admin(0)[v04h30bt52uoqlar0dlo798nj4]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/02 17:18:55 [/admin/design/main_edit.php] [execute end 524bd6e2d4d00#6]
+SQL: PREPARE mdb2_statement_mysql_6335090ffea6029e6f0c706f7f69d25348b46e107 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:100:"/admin/design/main_edit.php?device_type_id=10&transactionid=b03f63fd4da593d45e3860b0f508824bcbb1008c";transactionid|s:40:"b03f63fd4da593d45e3860b0f508824bcbb1008c";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"524b9b035a7caAR92Y3sH";last_login|s:19:"2013-10-02 08:50:14";preview|s:2:"ON";',
+  1 => 'v04h30bt52uoqlar0dlo798nj4',
+)
+execution time: 11.59 sec
+ from 121.94.157.46
+login_id = admin(0)[v04h30bt52uoqlar0dlo798nj4]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/03 01:12:22 [/admin/design/bloc.php] [execute end 524c45e22a273#7]
+SQL: PREPARE mdb2_statement_mysql_750c65d7c0ea3314dc50c1f8d4163ef683ba50dce FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:51:"/admin/design/bloc.php?bloc_id=22&device_type_id=10";transactionid|s:40:"3d700392701cc4fb06e2223c12afed2042201bc7";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"524af0f7b47eaZf2ArVUV";last_login|s:19:"2013-10-02 13:03:15";preview|s:2:"ON";',
+  1 => 'mv94csg1s1alpvnkoivlkh78j6',
+)
+execution time: 4.66 sec
+ from 124.208.60.133
+login_id = admin(0)[mv94csg1s1alpvnkoivlkh78j6]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/03 12:35:54 [/admin/design/index.php] [execute end 524ce615cfb2d#9]
+SQL: PREPARE mdb2_statement_mysql_93104e8055a6d6a5c95346306eea7a89aaef11c2d FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:42:"/admin/design/?page_id=1&device_type_id=10";transactionid|s:40:"00216148fc68da89c1f21070695ac6e1b6cb7048";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"524cba3a29d54YdY5XUbb";last_login|s:19:"2013-10-03 00:38:58";preview|s:2:"ON";',
+  1 => '978qi6li06ove4cudg4erdnn33',
+)
+execution time: 4.53 sec
+ from 121.94.157.46
+login_id = admin(0)[978qi6li06ove4cudg4erdnn33]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/03 13:16:26 [/admin/design/index.php] [execute end 524cef955a426#9]
+SQL: PREPARE mdb2_statement_mysql_900182a4d5f368006247500c71576ce9b01ccd3ea FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:43:"/admin/design/?page_id=40&device_type_id=10";transactionid|s:40:"00216148fc68da89c1f21070695ac6e1b6cb7048";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"524cba3a29d54YdY5XUbb";last_login|s:19:"2013-10-03 00:38:58";preview|s:2:"ON";',
+  1 => '978qi6li06ove4cudg4erdnn33',
+)
+execution time: 4.89 sec
+ from 121.94.157.46
+login_id = admin(0)[978qi6li06ove4cudg4erdnn33]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/07 15:44:33 [/admin/design/index.php] [execute end 5252584f86418#9]
+SQL: PREPARE mdb2_statement_mysql_9c9dff2680340326a1e6361909da8f0abd34d4c8f FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:43:"/admin/design/?page_id=16&device_type_id=10";transactionid|s:40:"765677f6e496596b8dfdc3458f747f9c8572db4a";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52525218a3612GdkfYyn3";last_login|s:19:"2013-10-03 16:02:44";preview|s:2:"ON";',
+  1 => '8qn9g6s2785fb2n4s04rfg86t6',
+)
+execution time: 2.24 sec
+ from 121.94.157.46
+login_id = admin(0)[8qn9g6s2785fb2n4s04rfg86t6]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/07 15:58:59 [/admin/design/index.php] [execute end 52525bb0c3f05#9]
+SQL: PREPARE mdb2_statement_mysql_95fb4383b537611ffda8a00b7404dfbaf72f9be78 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:43:"/admin/design/?page_id=30&device_type_id=10";transactionid|s:40:"765677f6e496596b8dfdc3458f747f9c8572db4a";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52525218a3612GdkfYyn3";last_login|s:19:"2013-10-03 16:02:44";preview|s:2:"ON";',
+  1 => '8qn9g6s2785fb2n4s04rfg86t6',
+)
+execution time: 3.04 sec
+ from 121.94.157.46
+login_id = admin(0)[8qn9g6s2785fb2n4s04rfg86t6]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/07 16:51:38 [/admin/design/index.php] [execute end 52526807b3356#9]
+SQL: PREPARE mdb2_statement_mysql_931ef21090e0e9f11b05c3ebd869b028c8502c0e7 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:43:"/admin/design/?page_id=10&device_type_id=10";transactionid|s:40:"765677f6e496596b8dfdc3458f747f9c8572db4a";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52525218a3612GdkfYyn3";last_login|s:19:"2013-10-03 16:02:44";preview|s:2:"ON";',
+  1 => '8qn9g6s2785fb2n4s04rfg86t6',
+)
+execution time: 2.84 sec
+ from 121.94.157.46
+login_id = admin(0)[8qn9g6s2785fb2n4s04rfg86t6]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/07 20:02:50 [/admin/design/index.php] [execute end 525294d334fad#9]
+SQL: PREPARE mdb2_statement_mysql_954f924bf9b3451facf3141c2db7fa5f13fb21189 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:43:"/admin/design/?page_id=37&device_type_id=10";transactionid|s:40:"17e315f79e39aba190a6cf3d428eaccff6170161";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52528e45eaa72QN4FMxas";last_login|s:19:"2013-10-07 15:18:00";preview|s:2:"ON";',
+  1 => 'ge823mk50tm49u5ffoelnonme7',
+)
+execution time: 7.66 sec
+ from 121.94.157.46
+login_id = admin(0)[ge823mk50tm49u5ffoelnonme7]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/07 20:03:04 [/admin/design/index.php] [execute end 525294e552431#9]
+SQL: PREPARE mdb2_statement_mysql_9d344921c08c18e2435689eacd4bac775d5ca84bd FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:43:"/admin/design/?page_id=38&device_type_id=10";transactionid|s:40:"17e315f79e39aba190a6cf3d428eaccff6170161";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52528e45eaa72QN4FMxas";last_login|s:19:"2013-10-07 15:18:00";preview|s:2:"ON";',
+  1 => 'ge823mk50tm49u5ffoelnonme7',
+)
+execution time: 3.07 sec
+ from 121.94.157.46
+login_id = admin(0)[ge823mk50tm49u5ffoelnonme7]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/07 20:03:15 [/admin/design/index.php] [execute end 525294ef241d3#9]
+SQL: PREPARE mdb2_statement_mysql_9bbf4fca04103975d44084e143ddcdc32a89a9f47 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:43:"/admin/design/?page_id=39&device_type_id=10";transactionid|s:40:"17e315f79e39aba190a6cf3d428eaccff6170161";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52528e45eaa72QN4FMxas";last_login|s:19:"2013-10-07 15:18:00";preview|s:2:"ON";',
+  1 => 'ge823mk50tm49u5ffoelnonme7',
+)
+execution time: 4.22 sec
+ from 121.94.157.46
+login_id = admin(0)[ge823mk50tm49u5ffoelnonme7]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/07 20:03:23 [/admin/design/index.php] [execute end 525294f909416#9]
+SQL: PREPARE mdb2_statement_mysql_926d6197feb8821597fd501b15cbe7a8c538683d5 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:43:"/admin/design/?page_id=40&device_type_id=10";transactionid|s:40:"17e315f79e39aba190a6cf3d428eaccff6170161";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52528e45eaa72QN4FMxas";last_login|s:19:"2013-10-07 15:18:00";preview|s:2:"ON";',
+  1 => 'ge823mk50tm49u5ffoelnonme7',
+)
+execution time: 2.11 sec
+ from 121.94.157.46
+login_id = admin(0)[ge823mk50tm49u5ffoelnonme7]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/07 20:03:41 [/admin/design/index.php] [execute end 52529508c0974#9]
+SQL: PREPARE mdb2_statement_mysql_956376f997989df1d7b3ab07233c575e4bcbd0132 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:43:"/admin/design/?page_id=42&device_type_id=10";transactionid|s:40:"17e315f79e39aba190a6cf3d428eaccff6170161";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52528e45eaa72QN4FMxas";last_login|s:19:"2013-10-07 15:18:00";preview|s:2:"ON";',
+  1 => 'ge823mk50tm49u5ffoelnonme7',
+)
+execution time: 4.76 sec
+ from 121.94.157.46
+login_id = admin(0)[ge823mk50tm49u5ffoelnonme7]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/08 10:59:15 [/admin/design/css.php] [execute end 525366ed3d5b7#5]
+SQL: PREPARE mdb2_statement_mysql_5641f7cdbd7d808b7a80c594f4af51c7817fc48a7 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:56:"/admin/design/css.php?css_name=style02&device_type_id=10";transactionid|s:40:"7788aa6ed56abf384f07660e71750ea5baa821c7";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52535fe44215f7GwUfTUD";last_login|s:19:"2013-10-08 10:06:47";',
+  1 => 'oeuvikg5ea8e79e9c4qp6echq7',
+)
+execution time: 6.28 sec
+ from 121.94.157.46
+login_id = admin(0)[oeuvikg5ea8e79e9c4qp6echq7]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/08 15:11:05 [/admin/design/bloc.php] [execute end 5253a1f654799#6]
+SQL: PREPARE mdb2_statement_mysql_689cbf211e7cee1f823316a1e4187334b64a26618 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:40:"/admin/design/bloc.php?device_type_id=10";transactionid|s:40:"8b8c6fa8e0bdede6cc06475530abfa69cb5b3e97";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52535aa74fc2aRaaWuxL3";last_login|s:19:"2013-10-07 19:34:45";preview|s:2:"ON";',
+  1 => '278k303top8p4rl43jmm6s6845',
+)
+execution time: 2.38 sec
+ from 121.94.157.46
+login_id = admin(0)[278k303top8p4rl43jmm6s6845]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/08 15:11:13 [/admin/design/index.php] [execute end 5253a1fc0f289#5]
+SQL: PREPARE mdb2_statement_mysql_5c7c03b4cfa0afb7a3518c3ae638fe8ce2948ff50 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:15:"/admin/design/?";transactionid|s:40:"8b8c6fa8e0bdede6cc06475530abfa69cb5b3e97";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52535aa74fc2aRaaWuxL3";last_login|s:19:"2013-10-07 19:34:45";preview|s:2:"ON";',
+  1 => '278k303top8p4rl43jmm6s6845',
+)
+execution time: 5.14 sec
+ from 121.94.157.46
+login_id = admin(0)[278k303top8p4rl43jmm6s6845]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/08 15:11:17 [/admin/design/main_edit.php] [execute end 5253a20180624#6]
+SQL: PREPARE mdb2_statement_mysql_63c11dd7e24a8e45ba47bf3cc382c3b606ea719ba FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:100:"/admin/design/main_edit.php?device_type_id=10&transactionid=8b8c6fa8e0bdede6cc06475530abfa69cb5b3e97";transactionid|s:40:"8b8c6fa8e0bdede6cc06475530abfa69cb5b3e97";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52535aa74fc2aRaaWuxL3";last_login|s:19:"2013-10-07 19:34:45";preview|s:2:"ON";',
+  1 => '278k303top8p4rl43jmm6s6845',
+)
+execution time: 3.77 sec
+ from 121.94.157.46
+login_id = admin(0)[278k303top8p4rl43jmm6s6845]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/08 19:02:14 [/admin/design/css.php] [execute end 5253d82387e01#5]
+SQL: PREPARE mdb2_statement_mysql_5455fc8d444ac90c0036f2411a3262ec4945fd107 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:55:"/admin/design/css.php?css_name=footer&device_type_id=10";transactionid|s:40:"7788aa6ed56abf384f07660e71750ea5baa821c7";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52535fe44215f7GwUfTUD";last_login|s:19:"2013-10-08 10:29:08";',
+  1 => 'oeuvikg5ea8e79e9c4qp6echq7',
+)
+execution time: 2.98 sec
+ from 121.94.157.46
+login_id = admin(0)[oeuvikg5ea8e79e9c4qp6echq7]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/08 19:05:22 [/admin/design/css.php] [execute end 5253d8df061cf#5]
+SQL: PREPARE mdb2_statement_mysql_51fb19db0a53cc4a38d4179fe8f4fa1e0f767dcb4 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:63:"/admin/design/css.php?css_name=toppage_header&device_type_id=10";transactionid|s:40:"7788aa6ed56abf384f07660e71750ea5baa821c7";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52535fe44215f7GwUfTUD";last_login|s:19:"2013-10-08 10:29:08";',
+  1 => 'oeuvikg5ea8e79e9c4qp6echq7',
+)
+execution time: 3.28 sec
+ from 121.94.157.46
+login_id = admin(0)[oeuvikg5ea8e79e9c4qp6echq7]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/08 19:06:11 [/admin/design/css.php] [execute end 5253d90fc9e0c#5]
+SQL: PREPARE mdb2_statement_mysql_5212d4da881faa2a2116b3bc6d69a1ec8c0d5a87f FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:53:"/admin/design/css.php?css_name=menu&device_type_id=10";transactionid|s:40:"7788aa6ed56abf384f07660e71750ea5baa821c7";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52535fe44215f7GwUfTUD";last_login|s:19:"2013-10-08 10:29:08";',
+  1 => 'oeuvikg5ea8e79e9c4qp6echq7',
+)
+execution time: 3.27 sec
+ from 121.94.157.46
+login_id = admin(0)[oeuvikg5ea8e79e9c4qp6echq7]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/08 19:12:43 [/admin/design/bloc.php] [execute end 5253da981eb86#7]
+SQL: PREPARE mdb2_statement_mysql_7b2c2f57a482a5b82668dbe8a9ef82d8465ef81df FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:51:"/admin/design/bloc.php?bloc_id=26&device_type_id=10";transactionid|s:40:"7788aa6ed56abf384f07660e71750ea5baa821c7";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52535fe44215f7GwUfTUD";last_login|s:19:"2013-10-08 10:29:08";',
+  1 => 'oeuvikg5ea8e79e9c4qp6echq7',
+)
+execution time: 3.22 sec
+ from 121.94.157.46
+login_id = admin(0)[oeuvikg5ea8e79e9c4qp6echq7]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/09 09:23:37 [/admin/design/index.php] [execute end 5254a20256d53#9]
+SQL: PREPARE mdb2_statement_mysql_985d23f5a3ebd7ca9aa139a070ae20fc0d7d4da8d FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:43:"/admin/design/?page_id=52&device_type_id=10";transactionid|s:40:"6362fa1bf575220558efa4fa6a687f975ea66838";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"5254a1ccd6b34aLPftgH3";last_login|s:19:"2013-10-08 21:23:51";',
+  1 => '65l9lac4uj668j8bqk3hp3j2t1',
+)
+execution time: 7.06 sec
+ from 121.94.157.46
+login_id = admin(0)[65l9lac4uj668j8bqk3hp3j2t1]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/09 10:55:10 [/admin/design/bloc.php] [execute end 5254b77a23ba7#7]
+SQL: PREPARE mdb2_statement_mysql_7445c343e038bd7346614242b596e03a83bc27116 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:51:"/admin/design/bloc.php?bloc_id=27&device_type_id=10";transactionid|s:40:"6362fa1bf575220558efa4fa6a687f975ea66838";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"5254a1ccd6b34aLPftgH3";last_login|s:19:"2013-10-08 21:23:51";preview|s:2:"ON";',
+  1 => '65l9lac4uj668j8bqk3hp3j2t1',
+)
+execution time: 4.34 sec
+ from 121.94.157.46
+login_id = admin(0)[65l9lac4uj668j8bqk3hp3j2t1]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/09 15:09:35 [/admin/design/index.php] [execute end 5254f31ad16a9#9]
+SQL: PREPARE mdb2_statement_mysql_9d8a7b3c7b4f4e5c9196c416986075efc038b13b4 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:43:"/admin/design/?page_id=48&device_type_id=10";transactionid|s:40:"6362fa1bf575220558efa4fa6a687f975ea66838";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"5254a1ccd6b34aLPftgH3";last_login|s:19:"2013-10-09 09:30:42";preview|s:2:"ON";',
+  1 => '65l9lac4uj668j8bqk3hp3j2t1',
+)
+execution time: 4.59 sec
+ from 121.94.157.46
+login_id = admin(0)[65l9lac4uj668j8bqk3hp3j2t1]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/09 15:20:05 [/admin/design/bloc.php] [execute end 5254f593397fa#7]
+SQL: PREPARE mdb2_statement_mysql_701fcff8034ae509afc127dd8223201d1eaf779bf FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:51:"/admin/design/bloc.php?bloc_id=62&device_type_id=10";transactionid|s:40:"fbadd39db69ff4a692d3a59060d0431aa4d0177b";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"5254a3b2ea0abWBFAem4s";last_login|s:19:"2013-10-09 09:22:36";preview|s:2:"ON";',
+  1 => 's05pbl08qluqp9gi917fbtqq67',
+)
+execution time: 2.28 sec
+ from 121.94.157.46
+login_id = admin(0)[s05pbl08qluqp9gi917fbtqq67]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/09 15:27:33 [/preview/index.php] [execute end 5254f7512a8f7#11]
+SQL: PREPARE mdb2_statement_mysql_11572d725bb6f915b77436bf359ceed687fb8103b0 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:108:"/preview/?filename=user_data/products_recently_viewed&transactionid=fbadd39db69ff4a692d3a59060d0431aa4d0177b";transactionid|s:40:"fbadd39db69ff4a692d3a59060d0431aa4d0177b";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"5254a3b2ea0abWBFAem4s";last_login|s:19:"2013-10-09 09:22:36";preview|s:2:"ON";',
+  1 => 's05pbl08qluqp9gi917fbtqq67',
+)
+execution time: 4.61 sec
+ from 121.94.157.46
+customer_id = 
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/09 17:09:29 [/admin/design/bloc.php] [execute end 52550f3684122#7]
+SQL: PREPARE mdb2_statement_mysql_7e4ada6f891dbd4d40745f62566b97b810011e36e FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:51:"/admin/design/bloc.php?bloc_id=66&device_type_id=10";transactionid|s:40:"6362fa1bf575220558efa4fa6a687f975ea66838";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"5254a1ccd6b34aLPftgH3";last_login|s:19:"2013-10-09 09:30:42";preview|s:2:"ON";',
+  1 => '65l9lac4uj668j8bqk3hp3j2t1',
+)
+execution time: 3.12 sec
+ from 121.94.157.46
+login_id = admin(0)[65l9lac4uj668j8bqk3hp3j2t1]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/09 20:48:19 [/admin/design/bloc.php] [execute end 5255427eac4a9#7]
+SQL: PREPARE mdb2_statement_mysql_768221c52b8a5f9412285d933b51c3dc9f501413a FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:51:"/admin/design/bloc.php?bloc_id=23&device_type_id=10";transactionid|s:40:"fbadd39db69ff4a692d3a59060d0431aa4d0177b";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"5254a3b2ea0abWBFAem4s";last_login|s:19:"2013-10-09 09:22:36";preview|s:2:"ON";',
+  1 => 's05pbl08qluqp9gi917fbtqq67',
+)
+execution time: 5.15 sec
+ from 121.94.157.46
+login_id = admin(0)[s05pbl08qluqp9gi917fbtqq67]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/09 21:04:48 [/admin/design/css.php] [execute end 5255465cb331a#5]
+SQL: PREPARE mdb2_statement_mysql_5ec4676277260b79e788e637dc90b1c9b02692f82 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:39:"/admin/design/css.php?device_type_id=10";transactionid|s:40:"fbadd39db69ff4a692d3a59060d0431aa4d0177b";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"5254a3b2ea0abWBFAem4s";last_login|s:19:"2013-10-09 09:22:36";preview|s:2:"ON";',
+  1 => 's05pbl08qluqp9gi917fbtqq67',
+)
+execution time: 3.69 sec
+ from 121.94.157.46
+login_id = admin(0)[s05pbl08qluqp9gi917fbtqq67]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/09 23:45:16 [/admin/design/bloc.php] [execute end 52556bf8ec966#7]
+SQL: PREPARE mdb2_statement_mysql_7381af6a670c97e3881ec19729fb799170b930686 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:51:"/admin/design/bloc.php?bloc_id=14&device_type_id=10";transactionid|s:40:"6362fa1bf575220558efa4fa6a687f975ea66838";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"5254a1ccd6b34aLPftgH3";last_login|s:19:"2013-10-09 09:30:42";preview|s:2:"ON";',
+  1 => '65l9lac4uj668j8bqk3hp3j2t1',
+)
+execution time: 3.42 sec
+ from 124.208.60.133
+login_id = admin(0)[65l9lac4uj668j8bqk3hp3j2t1]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/10 09:39:46 [/admin/design/index.php] [execute end 5255f74da4d10#9]
+SQL: PREPARE mdb2_statement_mysql_99ea9b1ef8bc3ee606ab4ff9ea6d7cb80799271ee FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:43:"/admin/design/?page_id=22&device_type_id=10";transactionid|s:40:"07d40b5ceffbfef297fe3cc39bf9e999d7fd6f4f";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"5255f1bca43aaNePb9tku";last_login|s:19:"2013-10-10 09:23:46";preview|s:2:"ON";',
+  1 => 'ueu0fubi1ipj8fndc7gb79ef13',
+)
+execution time: 4.25 sec
+ from 121.94.157.46
+login_id = admin(0)[ueu0fubi1ipj8fndc7gb79ef13]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/10 09:39:46 [/admin/design/index.php] [execute end 5255f74de920e#9]
+SQL: PREPARE mdb2_statement_mysql_9a6c0b9be459bb2915bf4dce20e88e514d300b58e FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:43:"/admin/design/?page_id=22&device_type_id=10";transactionid|s:40:"07d40b5ceffbfef297fe3cc39bf9e999d7fd6f4f";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"5255f1bca43aaNePb9tku";last_login|s:19:"2013-10-10 09:23:46";preview|s:2:"ON";',
+  1 => 'ueu0fubi1ipj8fndc7gb79ef13',
+)
+execution time: 4.16 sec
+ from 121.94.157.46
+login_id = admin(0)[ueu0fubi1ipj8fndc7gb79ef13]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
+2013/10/10 09:49:35 [/admin/design/bloc.php] [execute end 5255f99389558#7]
+SQL: PREPARE mdb2_statement_mysql_7ef9565adcb42a1098d4888e148579456a1e0dd4e FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:51:"/admin/design/bloc.php?bloc_id=21&device_type_id=10";transactionid|s:40:"a04dea3de765171432ca8cf22a398e1e60067297";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"5255f7fa01618QTTDSKtm";last_login|s:19:"2013-10-10 09:30:08";preview|s:2:"ON";',
+  1 => '7tn1jflnsrv7p2afp0hmbtpgt4',
+)
+execution time: 11.65 sec
+ from 121.94.157.46
+login_id = admin(0)[7tn1jflnsrv7p2afp0hmbtpgt4]
+(): session_write_close
+(): SC_Helper_Session->sfSessWrite
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/helper/SC_Helper_Session.php(95): SC_Query->update
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(589): SC_Query->query
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(814): SC_Query->execute
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(965): SC_Query->lfEndDbTraceLog
+/home/prograph2v1y/public_html/subdomain/nejikuru/data/class/SC_Query.php(1106): GC_Utils->gfPrintLog
