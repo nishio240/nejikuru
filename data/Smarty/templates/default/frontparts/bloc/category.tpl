@@ -23,8 +23,9 @@
 <div id="container">
        		<div id="crumb">
 				<div id="icon"></div>
-                <div id="crumb_ch">ホーム</div>
+                <div id="crumb_ch"><a href="">ホーム</a> &gt; 最近見た商品</div>
             </div>
+
         	<div id="side">
 				<div class="category">
 					<h3>商品カテゴリー</h3>
@@ -36,11 +37,4 @@
                             <li><a href="">商品一覧</a></li>
                         </ul>
 				</div>
-                <div class="other">
-					<ul>
-                        <li><a href="">ご利用ガイド</a></li>
-                        <li><a href="">ネジクルとは</a></li>
-                        <li><a href="">よくあるご質問</a></li>
-                        <li><a href="">ネジクル百貨事典</a></li>
-                    </ul>
-                </div>
+                

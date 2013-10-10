@@ -21,7 +21,7 @@
                     </thead>
                     <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<!--{$TPL_URLPATH}-->img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">( + )ナベ小ねじ</a></td>
                             <td id="confirmation_order_td_ceter">ｽﾃﾝﾚｽ</td>
                             <td id="confirmation_order_td_ceter">三価ﾌﾞﾗｯｸ</td>
@@ -42,7 +42,7 @@
                     </tbody>
                     <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<!--{$TPL_URLPATH}-->img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">六角穴付ボルト 1.4 X 8</a></td>
                             <td id="confirmation_order_td_ceter">鉄</td>
                             <td id="confirmation_order_td_ceter">生地</td>
@@ -65,7 +65,7 @@
                     </tbody>
 <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<!--{$TPL_URLPATH}-->img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">( + )ナベ小ねじ</a></td>
                             <td id="confirmation_order_td_ceter">ｽﾃﾝﾚｽ</td>
                             <td id="confirmation_order_td_ceter">三価ﾌﾞﾗｯｸ</td>
@@ -86,7 +86,7 @@
                     </tbody>
 <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<!--{$TPL_URLPATH}-->img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">六角穴付ボルト 1.4 X 8</a></td>
                             <td id="confirmation_order_td_ceter">鉄</td>
                             <td id="confirmation_order_td_ceter">生地</td>

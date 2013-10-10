@@ -1,72 +1,72 @@
-<?php /* Smarty version 2.6.26, created on 2013-10-02 16:02:32
+<?php /* Smarty version 2.6.26, created on 2013-10-09 15:00:42
          compiled from /home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/mypage_quote_request.tpl */ ?>
-<div class="inquiry03">見積り依頼</div>
+<div id="mini_title" class="txt_14 font-bold margin-top20">見積り依頼</div>
               
-              <div class="quote_request_description">お見積り内容を入力の上、「見積り依頼を送信」ボタンをクリックしてください。<font color="#FF0000">[必須]</font>は必ずご入力ください。<br>商品画像等、補足ファイルを最大３つ添付ができます。
+              <div id="frame" class="margin-top20 txt_12">お見積り内容を入力の上、「見積り依頼を送信」ボタンをクリックしてください。<font color="#FF0000">[必須]</font>は必ずご入力ください。<br>商品画像等、補足ファイルを最大３つ添付ができます。
               </div>
                     
                     
-               	<table border="0" cellspacing="0" cellpadding="0" id="quote_request_description_table01">
+              <table border="0" cellspacing="0" cellpadding="0" id="tablelist" class="margin-top10">
                 	<tr>
-                	  <th id="th03">タイトル <font color="#FF0000">[必須]</font></th>
-                	  <td><input type="text" name="name" size="115"></td>
+                	  <th class="w199 h42 textin-dent10 text-left">タイトル <font color="#FF0000">[必須]</font></th>
+                	  <td class="w758 textin-dent10"><input type="text" name="name" size="115"></td>
               	  </tr>
                 	<tr>
-                    	<th id="th04">見積り依頼内容 <font color="#FF0000">[必須]</font></th>
-                        <td><textarea name="kanso" rows="8" cols="90"></textarea></td>
+                    	<th class="w199 h130 textin-dent10 text-left">見積り依頼内容 <font color="#FF0000">[必須]</font></th>
+                        <td class="textin-dent10"><textarea name="kanso" rows="8" cols="90"></textarea></td>
                     </tr>
                     <tr>
-                      <th id="th03">ファイル添付1</th>
-                      <td><a href=""><input type="text" name="name" size="20"><input type="button" value="参照" onclick=""></a></td>
+                      <th class="w199 h40 textin-dent10 text-left">ファイル添付1</th>
+                      <td class="textin-dent10"><a href=""><input type="text" name="name" size="20"><input type="button" value="参照" onclick=""></a></td>
                     </tr>
                     <tr>
-                      <th id="th03">ファイル添付2</th>
-                      <td><a href=""><input type="text" name="name" size="20"><input type="button" value="参照" onclick=""></a></td>
+                      <th class="w199 h40 textin-dent10 text-left">ファイル添付2</th>
+                      <td class="textin-dent10"><a href=""><input type="text" name="name" size="20"><input type="button" value="参照" onclick=""></a></td>
                     </tr>
                     <tr>
-                      <th id="th03">ファイル添付3</th>
-                      <td><a href=""><input type="text" name="name" size="20"><input type="button" value="参照" onclick=""></a></td>
+                      <th class="w199 h40 textin-dent10 text-left">ファイル添付3</th>
+                      <td class="textin-dent10"><a href=""><input type="text" name="name" size="20"><input type="button" value="参照" onclick=""></a></td>
                     </tr>
                 </table>
                         
-                <div id="customer_information_title">お客様情報</div>
+                <div id="mini_title" class="txt_14 font-bold margin-top30 clear">お客様情報</div>
                 
-               	<table border="0" cellspacing="0" cellpadding="0" id="inquiry_details03">
+               	<table border="0" cellspacing="0" cellpadding="0" id="tablelist" class="margin-top20 clear">
                 	<tr>
-                	  <th id="th03">会社名</th>
-                	  <td><input type="text" name="name" size="80"></td>
+                	   <th class="w199 h42 textin-dent10 text-left">会社名</th>
+                	  <td class="w758 textin-dent10"><input type="text" name="name" size="80"></td>
               	  </tr>
                 	<tr>
-                    	<th id="th03">お名前 <font color="#FF0000">[必須]</font></th>
-                        <td><input type="text" name="name" size="80"></td>
+                    	 <th class="w199 h42 textin-dent10 text-left">お名前 <font color="#FF0000">[必須]</font></th>
+                        <td class="textin-dent10"><input type="text" name="name" size="80"></td>
                     </tr>
                     <tr>
-                      <th id="th03">メールアドレス <font color="#FF0000">[必須]</font></th>
-                      <td><input type="text" name="name" size="50"></td>
+                       <th class="w199 h42 textin-dent10 text-left">メールアドレス <font color="#FF0000">[必須]</font></th>
+                      <td class="textin-dent10"><input type="text" name="name" size="50"></td>
                     </tr>
                     <tr>
-                      <th id="th03">メールアドレス(確認用) <font color="#FF0000">[必須]</font></th>
-                      <td><input type="text" name="name" size="50"></td>
+                       <th class="w199 h42 textin-dent10 text-left">メールアドレス(確認用) <font color="#FF0000">[必須]</font></th>
+                      <td class="textin-dent10"><input type="text" name="name" size="50"></td>
                     </tr>
                     <tr>
-                      <th id="th03">電話番号 <font color="#FF0000">[必須]</font></th>
-                      <td><input type="text" name="name" size="30"></td>
+                       <th class="w199 h42 textin-dent10 text-left">電話番号 <font color="#FF0000">[必須]</font></th>
+                      <td class="textin-dent10"><input type="text" name="name" size="30"></td>
                     </tr>
                     <tr>
-                      <th id="th3">住所 <font color="#FF0000">[必須]</font></th>
-                      <td id="padding5">
+                       <th class="w199 h86 textin-dent10 text-left">住所 <font color="#FF0000">[必須]</font></th>
+                      <td class="padding5_10">
                       
-						<table id="address_form" border="0" cellpadding="0" cellspacing="0">
+						<table id="tablelist" border="0" cellpadding="0" cellspacing="0" style="border:0;">
                                             <tr>
-                                              <td colspan="2">〒
+                                              <td colspan="2" style="border:0;">〒
                                               <input name="" type="text" id="" style="width:80px">
                                               
                                               <button type="button" style="width:120px;" onclick="">郵便番号検索</button>
                                                                                             </td>
                                             </tr>
                                             <tr>
-                                              <td>都道府県</td>
-                                              <td>
+                                              <td style="border:0;">都道府県</td>
+                                              <td style="border:0;">
                                                 <select name="data[UserAddForm][m_prefecture_id]" id="UserAddFormMPrefectureId">
                                 <option value="">都道府県を選択</option>
                                 <option value="1">北海道</option>
@@ -121,8 +121,8 @@
                                               </td>
                                             </tr>
                                             <tr>
-                                              <td>市区郡以下</td>
-                                              <td>
+                                              <td style="border:0;">市区郡以下</td>
+                                              <td style="border:0;">
                                                 <input type="text" name="name" size="80">
                                                 
                                               </td>

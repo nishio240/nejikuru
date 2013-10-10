@@ -1,5 +1,7 @@
-<?php /* Smarty version 2.6.26, created on 2013-10-03 13:54:45
+<?php /* Smarty version 2.6.26, created on 2013-10-08 21:18:39
          compiled from /home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/confirmation_order_details.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/confirmation_order_details.tpl', 23, false),)), $this); ?>
                    
               <div id="legend02">ネジクルでオンラインショッピングをご利用いただくためには、「会員登録」が必要です。<br>
                 会員登録をしていただくと注文履歴管理やお気に入り登録などの会員専用機能がご利用になれます。</div>
@@ -22,7 +24,8 @@
                     </thead>
                     <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">ﾆｯｹﾙ 鉄 高ナット 6X10X40</a></td>
                             <td id="confirmation_order_td_ceter">ｽﾃﾝﾚｽ</td>
                             <td id="confirmation_order_td_ceter">三価ﾌﾞﾗｯｸ</td>
@@ -34,7 +37,8 @@
                     </tbody>
                     <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">ﾆｯｹﾙ 鉄 高ナット 6X10X40</a></td>
                             <td id="confirmation_order_td_ceter">ｽﾃﾝﾚｽ</td>
                             <td id="confirmation_order_td_ceter">三価ﾌﾞﾗｯｸ</td>
@@ -147,4 +151,4 @@
                 
                 <div id="buttom">
                         <div id="settlement_order"><a href=""></a></div>
-				</div>
+				</div>

@@ -1,8 +1,8 @@
-<?php /* Smarty version 2.6.26, created on 2013-10-03 10:24:28
+<?php /* Smarty version 2.6.26, created on 2013-10-08 21:15:13
          compiled from /home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/also_bought.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/also_bought.tpl', 8, false),)), $this); ?>
- <div id="also_bought">
+<div id="also_bought" class="margin-top40">
                 	<ul>
                     	<li>この商品をご購入の方は、こんな商品も購入しています。</li>
                     </ul>

@@ -1,32 +1,17 @@
-<?php /* Smarty version 2.6.26, created on 2013-10-03 00:47:44
+<?php /* Smarty version 2.6.26, created on 2013-10-10 09:56:02
          compiled from /home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/toppage_side_etc.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/toppage_side_etc.tpl', 30, false),)), $this); ?>
-<div id="added_modified_products">
-                	<div class="bn_products_title">
-                    	<ul>
-                        	<li><a href="">追加・更新商品一覧</a></li>
-                        </ul>
-                    </div>
-                    <div class="added_modified_products_photo"></div>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/toppage_side_etc.tpl', 15, false),)), $this); ?>
+<div id="newproducts">
+                	<a href=""></a>
                 </div>
                 
-                <div id="newproducts">
-                	<div class="bn_products_title">
-                    	<ul>
-                        	<li><a href="">新商品情報</a></li>
-                        </ul>
-                    </div>
-                    <div class="added_modified_products_photo"></div>
+                <div id="new_goods">
+                	<a href=""></a>
                 </div>
                 
-                <div id="carefully_selected_products">
-               		<div class="bn_products_title">
-                    	<ul>
-                        	<li><a href="">厳選商品</a></li>
-                        </ul>
-                    </div>
-                    <div class="added_modified_products_photo"></div>
+                <div id="careful_selection">
+               		<a href=""></a>
                 </div>
                 
                 <div id="catalog">
@@ -49,4 +34,4 @@ img/icon/catalog.jpg"></div>
 
                 <div class="fb-like-box" data-href="https://www.facebook.com/pages/%E3%83%8D%E3%82%B8%E3%82%AF%E3%83%AB/173713339346505?fref=ts" data-width="200" data-height="283" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true" style="background-color:#ffffff"></div>
                 
-            </div>
+            </div>

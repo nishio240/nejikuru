@@ -1,63 +1,62 @@
 @charset "utf-8";
 
-header img {
-	display: block;
-	border:0px;
-}
-
 header{
+	float:left;
 	border-top: solid #999999 1px;
 	border-bottom: solid #3361ad 3px;
 	width: 1220px;
-	height:114px;
-	background-color:#fff;
 }
 
-#header{
+#heder_top {
 	width:960px;
+	height:104px;
 	margin:0 auto;
 }
 
-.header-left{
+#header_second{
+	width:960px;
+	height:114px;
+	margin:0 auto;
+}
+
+#header-print {
+	width:960px;
+	margin:0 auto;
+	height:74px;
+}
+
+#print-tel {
 	float:left;
-	width:288px;
-	height:104px;
+	width:329px;
+	height:46px;
+	background:url(../img/background/print_header_tel.jpg) no-repeat;
 }
 
-.header-right{
-	float:right;
-	width:612px;
-	height:104px;
+#botton160 {
+	width:160px;
+	height:24px;
+	background: url(../img/background/close_window_bt.gif) no-repeat;
 }
 
-div#header-welcom{
-	margin:4px 0 0 3px;
-	text-align: left;
-	font-size: 11px;
-	font-weight: normal;
-	color:#1badcf;
-	font-family: inherit;
-  	vertical-align: baseline;
-	letter-spacing:0px;
+#botton160 a{
+	display:block;
+	width:100%;
+	height:100%;
 }
 
-#header-description {
-	margin: 10px 0 0 0;
-	height:20px;
-}
-
-.description {
+#description {
 	float:left;
 	width:422px;
 	height:20px;
-	background:url(../img/background/header_description.jpg)no-repeat;
+	margin: 10px 0 0 0;
+	background: url(../img/background/header_description.jpg)no-repeat;
 }
 
-.sns {
+#sns {
 	float:right;
-	width:190px;
+	width:180px;
 	height:20px;
-	text-align:right;
+	margin: 10px 0 0 10px;
 }
 
 #header-tel {
@@ -68,37 +67,34 @@ div#header-welcom{
 }
 
 nav {
-	width:100%;
+	float:right;
+	width:565px;
 	height:26px;
-	padding:5px 0 0 47px;
 }
 
-nav ul {
-  display: inline;
-  list-style:none;
-}
-
-/* line 109, ../sass/top.scss */
-nav li {
-  float: left;
+nav div#herder_menu {
+  float:left;
   vertical-align: top;
-  margin:0 5px 0 0;
   width:90px;
   height:26px;
 }
 
-/* line 116, ../sass/top.scss */
-nav li a {
+
+nav div#herder_menu a {
 	display: block;
 	height: 100%;
 	width: 100%;
 }
 
-/* line 128, ../sass/top.scss */
+
+
+
 nav li img {
   vertical-align: top;
 }
 
+
+/*　ヘッダーメニュー02　*/
 
 div#header_menu {
 	float:left;
@@ -148,71 +144,32 @@ div#header_menu div#header_menu05 {
 	background:url(../img/button/header_menu05.jpg) no-repeat;
 }
 
+
+/*　ヘッダー検索　*/
+
 div#header_search {
+	float:left;
 	width:1220px;
 	height:36px;
 	background:#eaf4ff;
 	margin:0 auto;
 }
 
-div#header_search img {
-	border:0;
-}
-
-div#header_search div.content{
+div#search_frame {
 	width:960px;
 	height:36px;
 	margin:0 auto;
 }
 
-div#header_search div.content div.search_form02 {
-	float:left;
-	width:230px;
-	height:24px;
-	padding:5px 0 0 0;
+
+div#crumb_right02 {
+	float:right;
+	width:auto;
+	height:36px;
+	font-size:12px;
+	line-height:36px;
 }
 
-div#header_search div.content div.search_bt {
-	float:left;
-	width:60px;
-	height:24px;
-	background:url(../img/button/search_bt.gif) no-repeat;
-	margin:6px 10px 0 5px;
-}
-
-div#header_search div.content div.search_bt a{
-	display: block;
-	height: 100%;
-	width: 100%;
-}
-
-div#header_search div.content div.detail_search {
-	float:left;
-	width:90px;
-	height:24px;
-	margin:6px 0 0 0;
-}
-
-div#header_search div.content div.detail_search ul {
-	padding: 0 0 0 0px;
-	margin:0;
-	list-style-type:none;
-	height:24px;
-}
-
-div#header_search div.content div.detail_search ul li {
-	background:url(../img/icon/menu_right_bt.gif) no-repeat left 6px;
-	font-size: 12px;
-	line-height: 25px;
-	text-indent: 17px;
-	font-family: inherit;
-}
-
-div#header_search div.content div.detail_search ul li a {
-	text-decoration: underline;
-	color: #0066cc;
-}
-
-div#header_search div.content div.detail_search ul li a:hover {
-	text-decoration: none;
+div#crumb_right02 img{
+	vertical-align:middle;
 }

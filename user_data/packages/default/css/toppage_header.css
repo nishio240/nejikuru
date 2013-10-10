@@ -51,7 +51,7 @@ div#header-welcom{
 	float:left;
 	width:422px;
 	height:20px;
-	background:url(../img/background/header_description.jpg)no-repeat;
+	background: url(../img/background/header_description.jpg)no-repeat;
 }
 
 .sns {
@@ -65,7 +65,7 @@ div#header-welcom{
 	float:left;
 	width:612px;
 	height:37px;
-	background:url(../img/background/tel_fax.jpg)no-repeat;
+	background: url(../img/background/tel_fax.jpg)no-repeat;
 }
 
 nav {
@@ -156,7 +156,7 @@ div#header_search div.content div.detail_search ul {
 }
 
 div#header_search div.content div.detail_search ul li {
-	background:url(../img/button/menu_right_bt.gif) no-repeat left 6px;
+	background:url(../img/icon/menu_right_bt.gif) no-repeat left 6px;
 	font-size: 12px;
 	line-height: 25px;
 	text-indent: 17px;
@@ -183,3 +183,4 @@ div#header_search div.content div.detail_search ul li a:hover {
 #crumb_right02 img{
 	vertical-align:middle;
 }
+

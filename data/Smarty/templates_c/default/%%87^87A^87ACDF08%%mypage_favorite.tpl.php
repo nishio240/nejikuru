@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-10-03 14:23:52
+<?php /* Smarty version 2.6.26, created on 2013-10-09 15:01:12
          compiled from /home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/mypage_favorite.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/mypage_favorite.tpl', 34, false),)), $this); ?>

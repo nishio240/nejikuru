@@ -1,5 +1,7 @@
-<?php /* Smarty version 2.6.26, created on 2013-10-03 13:27:28
+<?php /* Smarty version 2.6.26, created on 2013-10-08 21:18:19
          compiled from /home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/customer_information_input.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/customer_information_input.tpl', 21, false),)), $this); ?>
 <div id="legend02">お客様情報・お支払い方法・配送先情報を入力後、「注文内容のご確認」ボタンをクリックしてください。</div>
             		
                 
@@ -20,7 +22,8 @@
                     </thead>
                     <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">ﾆｯｹﾙ 鉄 高ナット 6X10X40</a></td>
                             <td id="confirmation_order_td_ceter">ｽﾃﾝﾚｽ</td>
                             <td id="confirmation_order_td_ceter">三価ﾌﾞﾗｯｸ</td>
@@ -32,7 +35,8 @@
                     </tbody>
                     <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">ﾆｯｹﾙ 鉄 高ナット 6X10X40</a></td>
                             <td id="confirmation_order_td_ceter">ｽﾃﾝﾚｽ</td>
                             <td id="confirmation_order_td_ceter">三価ﾌﾞﾗｯｸ</td>

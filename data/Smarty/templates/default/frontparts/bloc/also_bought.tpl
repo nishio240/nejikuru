@@ -1,4 +1,4 @@
- <div id="also_bought">
+<div id="also_bought" class="margin-top40">
                 	<ul>
                     	<li>この商品をご購入の方は、こんな商品も購入しています。</li>
                     </ul>

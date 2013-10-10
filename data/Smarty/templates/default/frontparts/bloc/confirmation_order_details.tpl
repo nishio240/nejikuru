@@ -20,7 +20,7 @@
                     </thead>
                     <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<!--{$TPL_URLPATH}-->img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">ﾆｯｹﾙ 鉄 高ナット 6X10X40</a></td>
                             <td id="confirmation_order_td_ceter">ｽﾃﾝﾚｽ</td>
                             <td id="confirmation_order_td_ceter">三価ﾌﾞﾗｯｸ</td>
@@ -32,7 +32,7 @@
                     </tbody>
                     <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<!--{$TPL_URLPATH}-->img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">ﾆｯｹﾙ 鉄 高ナット 6X10X40</a></td>
                             <td id="confirmation_order_td_ceter">ｽﾃﾝﾚｽ</td>
                             <td id="confirmation_order_td_ceter">三価ﾌﾞﾗｯｸ</td>

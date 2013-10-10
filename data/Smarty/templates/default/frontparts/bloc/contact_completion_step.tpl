@@ -5,7 +5,7 @@
             </div>
             
             <div id="crumb_right">
-            	分類の選択→商品の特定→ <img src="image/cart_icon.gif">
+            	分類の選択→商品の特定→ <img src="<!--{$TPL_URLPATH}-->img/background/cart_icon.gif">
             </div>
             
             <div id="content_title"><h3>ショッピングカート</h3></div>

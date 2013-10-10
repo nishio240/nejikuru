@@ -1,6 +1,6 @@
-<?php /* Smarty version 2.6.26, created on 2013-10-02 17:34:03
+<?php /* Smarty version 2.6.26, created on 2013-10-09 15:02:34
          compiled from /home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/mypage_contacthistory_list.tpl */ ?>
-<div class="inquiry03">お問い合わせ履歴</div>
+<div id="mini_title" class="txt_14 font-bold margin-top20">お問い合わせ履歴</div>
               
               <div class="quote_histories">
               	<div id="keyword">キーワードで探す</div>

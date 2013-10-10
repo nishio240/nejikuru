@@ -1,28 +1,13 @@
-<div id="added_modified_products">
-                	<div class="bn_products_title">
-                    	<ul>
-                        	<li><a href="">追加・更新商品一覧</a></li>
-                        </ul>
-                    </div>
-                    <div class="added_modified_products_photo"></div>
+<div id="newproducts">
+                	<a href=""></a>
                 </div>
                 
-                <div id="newproducts">
-                	<div class="bn_products_title">
-                    	<ul>
-                        	<li><a href="">新商品情報</a></li>
-                        </ul>
-                    </div>
-                    <div class="added_modified_products_photo"></div>
+                <div id="new_goods">
+                	<a href=""></a>
                 </div>
                 
-                <div id="carefully_selected_products">
-               		<div class="bn_products_title">
-                    	<ul>
-                        	<li><a href="">厳選商品</a></li>
-                        </ul>
-                    </div>
-                    <div class="added_modified_products_photo"></div>
+                <div id="careful_selection">
+               		<a href=""></a>
                 </div>
                 
                 <div id="catalog">

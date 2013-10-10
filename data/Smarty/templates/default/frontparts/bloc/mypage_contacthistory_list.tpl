@@ -1,4 +1,4 @@
-<div class="inquiry03">お問い合わせ履歴</div>
+<div id="mini_title" class="txt_14 font-bold margin-top20">お問い合わせ履歴</div>
               
               <div class="quote_histories">
               	<div id="keyword">キーワードで探す</div>

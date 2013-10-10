@@ -1,5 +1,7 @@
-<?php /* Smarty version 2.6.26, created on 2013-10-03 13:17:00
+<?php /* Smarty version 2.6.26, created on 2013-10-08 21:07:25
          compiled from /home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/purchase_cart.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/home/prograph2v1y/public_html/subdomain/nejikuru//data/Smarty/templates/default/frontparts/bloc/purchase_cart.tpl', 24, false),)), $this); ?>
 
                     
               <div id="legend03">カートの中には以下の商品が入ってます。</div>
@@ -23,7 +25,8 @@
                     </thead>
                     <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">( + )ナベ小ねじ</a></td>
                             <td id="confirmation_order_td_ceter">ｽﾃﾝﾚｽ</td>
                             <td id="confirmation_order_td_ceter">三価ﾌﾞﾗｯｸ</td>
@@ -44,7 +47,8 @@
                     </tbody>
                     <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">六角穴付ボルト 1.4 X 8</a></td>
                             <td id="confirmation_order_td_ceter">鉄</td>
                             <td id="confirmation_order_td_ceter">生地</td>
@@ -67,7 +71,8 @@
                     </tbody>
 <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">( + )ナベ小ねじ</a></td>
                             <td id="confirmation_order_td_ceter">ｽﾃﾝﾚｽ</td>
                             <td id="confirmation_order_td_ceter">三価ﾌﾞﾗｯｸ</td>
@@ -88,7 +93,8 @@
                     </tbody>
 <tbody id="confirmation_order_tbody">
                         <tr>
-                            <td id="confirmation_order_td_ceter"><a href="#"><img src="image/image.jpg"></a></td>
+                            <td id="confirmation_order_td_ceter"><a href="#"><img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/background/image.jpg"></a></td>
                             <td id="confirmation_order_td_left"><a href="">六角穴付ボルト 1.4 X 8</a></td>
                             <td id="confirmation_order_td_ceter">鉄</td>
                             <td id="confirmation_order_td_ceter">生地</td>
@@ -154,4 +160,4 @@
                             ・土日祝日は休業日になります。休業日には発送業務は行いませんのでご了承ください。
                            
                         </div>
-                </div>
+                </div>
